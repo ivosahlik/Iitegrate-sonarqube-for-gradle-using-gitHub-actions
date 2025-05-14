@@ -17,7 +17,7 @@ jobs:
       - name: Grant execute permissions for gradlew
         run: chmod +x ./gradlew
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew build sonar --info
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
