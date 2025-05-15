@@ -1,5 +1,6 @@
 name: Build
 on:
+  workflow_dispatch:
   # Trigger analysis when pushing to your main branches, and when creating a pull request.
   push:
     branches:
